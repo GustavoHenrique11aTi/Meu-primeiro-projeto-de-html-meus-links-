@@ -16,12 +16,14 @@ body {
 div {
   background-color: #1F1F1F;
   width: 384px;
-  padding-block: 40px;
+  padding: 40px;
   text-align: center;
   border-radius: 12px;
 }
 
-h1,p,a {
+h1,
+p,
+a {
   color: #fff;
 }
 
@@ -61,10 +63,10 @@ div a {
   font-weight: 700;
   font-size: 14px;
   line-height: 21px;
- }
+}
 
-div a:hover{
-  background-color:#151471;
-  color:  #141414;
+div a:hover {
+  background-color: #151471;
+  color: #141414;
   transition: 0.10;
 }
