@@ -21,9 +21,7 @@ div {
   border-radius: 12px;
 }
 
-h1,
-p,
-a {
+h1,p,a {
   color: #fff;
 }
 
@@ -40,7 +38,7 @@ div h1 {
 }
 
 div strong {
-  color: #c4f82a;
+  color: #151471;
   font-size: 14px;
   line-height: 21px;
 }
@@ -48,7 +46,6 @@ div strong {
 div p {
   margin-block: 24px;
   line-height: 21px;
-
 }
 
 div a a {
@@ -56,13 +53,18 @@ div a a {
 }
 
 div a {
-  dispaly: block;
+  display: block;
   text-decoration: none;
   background-color: #333333;
   padding: 12px;
   border-radius: 8px;
   font-weight: 700;
   font-size: 14px;
-  line_height: 21px;
-  
+  line-height: 21px;
+ }
+
+div a:hover{
+  background-color:#151471;
+  color:  #141414;
+  transition: 0.10;
 }
